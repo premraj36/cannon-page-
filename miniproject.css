@@ -1,0 +1,116 @@
+.libertinus-mono-regular {
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Libertinus Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.mainbox{
+height:100vh;
+background-image: url(photo\ \(1\).jpg);
+background-size: cover;
+}
+
+.btn-one i{
+    position:absolute;
+    color: white;
+    font-size:30px;
+    line-height: 60px;
+    left: 16px;
+    font-weight:700px;
+    cursor: pointer;
+
+}
+.side-bar{
+    position: fixed;
+     left:-350px; 
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 100%;
+    width:25%;
+    box-shadow: 0 0 6px grey;
+    transition:all 0.3s linear ;
+}
+.btn-two i{
+    position: absolute;
+    color: white;
+    left:90%;
+    opacity: 0.5;
+    font-size:20px;
+    line-height: 60px;
+    cursor:pointer;
+    
+}
+.logo{
+     box-shadow: 0 0 6px grey;
+     height: 60px;
+}
+.logo a{
+    color:white;
+    text-decoration: none;
+    line-height: 60px;
+    position: absolute;
+    left:60px;
+    font-size: 25px;
+}
+
+.menu ul li{
+    padding: 20px;
+    color:white ;
+}
+.menu ul li i ~ a{
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.social-media ul{
+    font-size: 25px;
+    position: absolute;
+    left: 20%;
+    bottom: 35px;
+    cursor:pointer;
+   
+}
+#check{
+    display: none;
+}
+.social-media i{
+    opacity: 0.4;
+    cursor:pointer;
+    color: white;
+}
+
+.social-media i:hover{ 
+    opacity:1;
+     box-shadow: 0px 4px 9px rgba(162, 23, 23, 0.2);
+}
+
+#check:checked ~.side-bar{
+    left:0;
+    
+}
+#check:checked ~ .btn-one{
+    opacity:0;
+}
+.btn-one i:hover{
+    font-size: 35px;
+}
+
+.btn-two i:hover{
+    font-size: 25px;
+    opacity:0.8;
+}
+.menu ul li:hover{
+  box-shadow: 0 0 6px grey;
+
+}
+
+
